@@ -162,7 +162,7 @@ header.set_asm_group(2)
 ```
 
 ### set_ip_pool
- This is to specifiy which [ip pool](https://sendgrid.com/docs/API_Reference/Web_API_v3/IP_Management/ip_pools.html) the message will be sent from.
+ This specifies which [ip pool](https://sendgrid.com/docs/API_Reference/Web_API_v3/IP_Management/ip_pools.html) the message will be sent from.
 ```ruby
 header = Smtpapi::header.new
 header.set_ip_pool("test_pool")
